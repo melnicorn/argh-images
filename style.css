@@ -1,0 +1,117 @@
+  body {
+
+    --primary-bg-color: #e7e7e7;
+    --shadow-color: #e7e7e7f0;
+    --secondary-bg-color: #004d6688;
+    --primary-bg-color-shadow: #e7e7e788;
+    --border-color: #222;
+    --font-color: #333;
+    --efx-red: #9E1B32;
+    --efx-red-transparent: #9E1B3244;
+  }
+
+  .btn.btn-primary.btn-vote.voted,
+  .portal-sidebar .add-idea-button {
+    background-color: var(--efx-red);
+    border: 1px solid var(--efx-red);
+  }
+
+  .filters .filter {
+    color: var(--font-color);
+  }
+  .filters .filter:hover {
+    background-color: var(--efx-red-transparent);
+    color: var(--primary-bg-color);
+  }
+  .column-with-sidebar {
+    background-image: url("https://raw.githubusercontent.com/melnicorn/argh-images/main/circledots_white.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 1201px 1205px;
+  }
+
+  .column-with-sidebar__column {
+    background: var(--primary-bg-color-shadow);
+  }
+
+  header .bg {
+    background-image: url("https://raw.githubusercontent.com/melnicorn/argh-images/main/headerbg6.png");
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .search-bar {
+    background: var(--primary-bg-color-shadow);
+  }
+
+  .idea-sidebar__attributes {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+  }
+
+  .idea-content {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+  }
+
+  .search-field {
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 2px;
+    background: #f5f5f5;
+  }
+
+  .column-with-sidebar {
+    background-color: var(--primary-bg-color);
+  }
+
+  .aha-icon-search {
+    margin-left: 5px;
+  }
+
+  .portal-sidebar {
+    background-color: var(--secondary-bg-color);
+  }
+
+  body.ideas-portal {
+    background-color: var(--primary-bg-color);
+  }
+
+  .current-user-info {
+    display: hidden;
+  }
+
+  header .logo {
+    min-width: 250px;
+  }
+
+  header .container {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 125px 125px var(--shadow-color);
+    background-color: var(--shadow-color);
+    padding: .25em 40px;
+    
+    max-width: 800px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header div.description {
+    color: var(--font-color);
+    font-size: 12pt;
+  }
+
+  section {
+    border: none;
+    box-shadow: none;
+  }
+
+  footer .description {
+    background: var(--primary-bg-color-shadow);
+    color: var(--font-color);
+    padding: 1em;
+    font-size: 10pt;
+  }
