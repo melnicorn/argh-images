@@ -24,7 +24,7 @@
     color: var(--primary-bg-color);
   }
   .column-with-sidebar {
-    background-image: url("https://raw.githubusercontent.com/melnicorn/argh-images/main/circledots_white.png");
+    background-image: url("https://assets.equifax.com/wfs/images/x-labs-circle-dots-bg-white.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 1201px 1205px;
@@ -35,7 +35,7 @@
   }
 
   header .bg {
-    background-image: url("https://raw.githubusercontent.com/melnicorn/argh-images/main/headerbg.png");
+    background-image: url("https://assets.equifax.com/wfs/images/x-labs-header-bg.png");
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
